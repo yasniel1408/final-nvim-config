@@ -2,13 +2,13 @@ return {
   {
     "numToStr/Comment.nvim",
     config = function()
-      require("Coment").setup({
-        padding = true,
-        ignore = "^$",
-        pre_hook = function()
-          return require("ts_context_commentstring.internal").calculate_commentstring()
-        end,
-      })
+      -- require("Coment").setup({
+      --   padding = true,
+      --   ignore = "^$",
+      --   pre_hook = function()
+      --     return require("ts_context_commentstring.internal").calculate_commentstring()
+      --   end,
+      -- })
     end,
   },
 }
